@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Testing form" max_length="40" name="x_58872_needit_testing_form" type="collection">
+        <element label="HELLOworld" max_length="40" name="helloworld" type="string"/>
+        <element attributes="omit_sys_original=true" label="field_currency" mandatory="true" max_length="20" name="u_currency_1" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="today date" max_length="40" name="u_glide_date_1" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="due date" max_length="40" name="u_glide_date_2" type="glide_date"/>
+        <element label="New Icon to be removed" max_length="100" name="u_icon_3" type="icon"/>
+        <element attributes="edge_encryption_enabled=true" label="New String test" max_length="40" name="u_string_2" type="string"/>
+    </element>
+</database>
