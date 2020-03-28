@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Automate task records creation</description>
+        <internal_name>create_automatic_task_records</internal_name>
+        <label_cache>[{"name":"3ecfc75a-a1cc-4d40-953d-60afba227617.Record","label":"1➛Record","reference":"task","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3ecfc75a-a1cc-4d40-953d-60afba227617.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f69a14f0-22de-420b-baac-158822a0919c.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f69a14f0-22de-420b-baac-158822a0919c.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Create automatic task records</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-27 16:32:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>14adbdb52f73c010d54bd8ddf699b6dc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Create automatic task records</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_14adbdb52f73c010d54bd8ddf699b6dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-27 16:37:14</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=14adbdb52f73c010d54bd8ddf699b6dc"/>
+    <sys_variable_value action="delete_multiple" query="document_key=14adbdb52f73c010d54bd8ddf699b6dc"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=14adbdb52f73c010d54bd8ddf699b6dc^sys_idNOT IN1acef1f52f73c010d54bd8ddf699b6b5"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Create automatic task records">14adbdb52f73c010d54bd8ddf699b6dc</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-27 16:37:14</sys_created_on>
+        <sys_id>1acef1f52f73c010d54bd8ddf699b6b5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-27 16:37:14</sys_updated_on>
+        <ui_id>f69a14f0-22de-420b-baac-158822a0919c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1acef1f52f73c010d54bd8ddf699b6b5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1acef1f52f73c010d54bd8ddf699b6b5</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-27 16:37:14</sys_created_on>
+        <sys_id>1ecef1f52f73c010d54bd8ddf699b6b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-27 16:37:14</sys_updated_on>
+        <value>state=1^assigned_to={"display":"Beth Anglin","value":"46d44a23a9fe19810012d100cca80666"}^due_date=2020-03-01 00:00:00^short_description=Created by flow designer "Create automatic task records"</value>
+        <variable display_value="">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1acef1f52f73c010d54bd8ddf699b6b5</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-27 16:37:14</sys_created_on>
+        <sys_id>decef1f52f73c010d54bd8ddf699b6b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-27 16:37:14</sys_updated_on>
+        <value>x_58872_needit_needit_task</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=14adbdb52f73c010d54bd8ddf699b6dc^sys_idNOT IN5acef1f52f73c010d54bd8ddf699b6b2"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Create automatic task records">14adbdb52f73c010d54bd8ddf699b6dc</flow>
+        <name>Run Once</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-27 16:37:14</sys_created_on>
+        <sys_id>5acef1f52f73c010d54bd8ddf699b6b2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-27 16:37:14</sys_updated_on>
+        <trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>run_once</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5acef1f52f73c010d54bd8ddf699b6b2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>5acef1f52f73c010d54bd8ddf699b6b2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-27 16:37:14</sys_created_on>
+        <sys_id>decef1f52f73c010d54bd8ddf699b6b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-27 16:37:14</sys_updated_on>
+        <value>2020-04-04 01:00:00</value>
+        <variable display_value="">92afcd94c32222002841b63b12d3aee8</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=14adbdb52f73c010d54bd8ddf699b6dc^sys_idNOT INd0adbdb52f73c010d54bd8ddf699b6dd"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>14adbdb52f73c010d54bd8ddf699b6dc</id>
+        <name>Create automatic task records</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-27 16:32:10</sys_created_on>
+        <sys_id>d0adbdb52f73c010d54bd8ddf699b6dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-27 16:32:10</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=14adbdb52f73c010d54bd8ddf699b6dc^sys_idNOT IN1acef1f52f73c010d54bd8ddf699b6b5"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Create automatic task records">14adbdb52f73c010d54bd8ddf699b6dc</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-27 16:37:14</sys_created_on>
+        <sys_id>1acef1f52f73c010d54bd8ddf699b6b5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-27 16:37:14</sys_updated_on>
+        <ui_id>f69a14f0-22de-420b-baac-158822a0919c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1acef1f52f73c010d54bd8ddf699b6b5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1acef1f52f73c010d54bd8ddf699b6b5</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-27 16:37:14</sys_created_on>
+        <sys_id>1ecef1f52f73c010d54bd8ddf699b6b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-27 16:37:14</sys_updated_on>
+        <value>state=1^assigned_to={"display":"Beth Anglin","value":"46d44a23a9fe19810012d100cca80666"}^due_date=2020-03-01 00:00:00^short_description=Created by flow designer "Create automatic task records"</value>
+        <variable display_value="">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1acef1f52f73c010d54bd8ddf699b6b5</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-27 16:37:14</sys_created_on>
+        <sys_id>decef1f52f73c010d54bd8ddf699b6b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-27 16:37:14</sys_updated_on>
+        <value>x_58872_needit_needit_task</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+</record_update>
